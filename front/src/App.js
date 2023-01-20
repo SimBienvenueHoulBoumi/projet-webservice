@@ -16,10 +16,10 @@ function App() {
         </div>
         <div className="m-auto mx-10 my-1 flex justify-end">
           <Link to="./pages/UserHome">
-            <button className="button bg-cyan-100 uppercase hover:bg-cyan-400 mt-1 p-2 shadow-md hover:border-y-black rounded w-[250px]">Accueil</button>
+            <button className="button bg-cyan-100 uppercase hover:bg-cyan-400 mt-1 p-2 shadow-md hover:border-y-black rounded w-[200px]">Accueil</button>
           </Link>
           <Link to="./pages/UserProfile">
-            <button className="button bg-blue-100 uppercase hover:bg-blue-400 mt-1 ml-1 p-2 shadow-md hover:border-y-black rounded w-[250px]">Enregistrements</button>
+            <button className="button bg-blue-100 uppercase hover:bg-blue-400 mt-1 ml-1 p-2 shadow-md hover:border-y-black rounded w-[200px]">Enregistrements</button>
           </Link>
         </div>
        <Routes>

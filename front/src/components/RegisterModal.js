@@ -11,7 +11,7 @@ export default function RegisterModal(props) {
                         <div className="mt-3 sm:flex">
                             <div className="mt-2 text-center sm:ml-4 sm:text-left">
                                 <h4 className="text-lg font-medium text-gray-800">
-                                    Delete account ?
+                                    Register account ?
                                 </h4>
                                 <p className="mt-2 text-[15px] leading-relaxed text-gray-500">
                                     Lorem ipsum dolor sit amet, consectetur
