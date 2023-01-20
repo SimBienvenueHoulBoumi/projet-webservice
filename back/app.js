@@ -37,8 +37,10 @@ app.use(bodyParser.json());
 
 // import des routes
 const userRoutes = require('./routes/user');
+const weatherRoutes = require('./routes/weather');
 
 app.use('/api/v1/auth', userRoutes);
+app.use('/api/v1/weather', weatherRoutes);
 
 // exportation pour être utilisé par d'autres fichiers
 module.exports = app;
